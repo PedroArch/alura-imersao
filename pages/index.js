@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import QuizBackground from '../src/components/QuizBackground';
 import db from '../db.json';
