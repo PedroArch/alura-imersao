@@ -9,17 +9,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
+import QuizContainer from '../src/components/QuizContainer';
 
 export default function Home() {
   const [name, setName] = React.useState('');
