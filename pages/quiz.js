@@ -119,7 +119,7 @@ export default function Quiz() {
         setQuestaoIndex(proximaQuestao);
         setIsSubmitted(false);
         setAlternativaSelecionada(null);
-      }, 3 * 1000);
+      }, 2 * 1000);
       addResult();
     } else {
       addResult();

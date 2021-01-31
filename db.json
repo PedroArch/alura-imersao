@@ -1,24 +1,113 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://i.pinimg.com/originals/a6/9a/23/a69a23ebf98b195b755a7f9c708aaf6c.png",
+  "title": "Os Grandes Pensadores da Tecnologia",
+  "description": "Teste os seus conhecimentos sobre sobre os grandes nomes da Tecnologia",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
-    },
-    {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/1hMjFZY16VxGWrfDfq/giphy.gif",
+      "title": "Qual dessas frases é a atribuída a Bill Gates?",
+      "description": "Fundador e ex CEO da Microsoft",
       "answer": 0,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Hoje, o ‘eu não sei’, se tornou o ‘eu ainda não sei’.",
+        "De pouco a pouco se chega lá",
+        "A tecnologia encurta distâncias",
+        "A criatividade vem antes do esforço",
+        "1% de inspiração e 99% de transpiração"
       ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xT1R9LqBXRHayhQneg/giphy.gif",
+      "title": "Em que país nasceu James Gosling?",
+      "description": "Gosling é considerado o pai do JAVA",
+      "answer": 0,
+      "alternatives": [
+        "Canadá",
+        "Rússia",
+        "Estados Unidos",
+        "Inglaterra",
+        "País de Gales"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/p6z2lHvl4Da4U/giphy.gif",
+      "title": "Em que ano foi lançado o Apple I por Steve Jobs?",
+      "description": "Steve Jobs é o fundador da Apple, Pixar e iMac G3",
+      "answer": 1,
+      "alternatives": ["1960", "1976", "1985", "1991", "2001"]
+    },
+    {
+      "image": "https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cfl_progressive%2Ch_400%2Cq_auto:good%2Cw_620/MTE4MDAzNDEwODQwOTQ2MTkw/ada-lovelace-20825279-1-402.jpg",
+      "title": "Em que ano Ada Lovelace fez o primeiro programa?",
+      "description": "Ada Lovelace é considerada a primeira pessoa a programar no mundo",
+      "answer": 2,
+      "alternatives": ["1711", "1789", "1842", "1899", "1903"]
+    },
+    {
+      "image": "https://lh4.googleusercontent.com/tmiJYyqoKjWTw3-3A0FigUgJGPrFRACPbKMLapXF6e38lNo8LT30tO3JSs_WgOp3P_W8sZ0ySe6N3xdps8hkNgoHr0vnjBsRn5ABjUCmsBlNrywFkBTfJzLuSp9-1ut7k3451UD2",
+      "title": "Margaret Heafield Hamilton criou o progama de voo de qual missão espacial?",
+      "description": "Margaret Heafield Hamilton é considerada por desenvolver o conceito moderno de software",
+      "answer": 2,
+      "alternatives": [
+        "Sputinik I",
+        "Vostok I",
+        "Apollo 11",
+        "Apollo 13",
+        "Voyager 1"
+      ]
+    },
+    {
+      "image": "https://a.ltrbxd.com/resized/sm/upload/qs/7f/ft/0u/the-imitation-game-1200-1200-675-675-crop-000000.jpg?k=3a564ada9a",
+      "title": "Qual guerra Alan Turing ajudou os britânicos a quebrar os códigos alemães?",
+      "description": "Alan Turing é considerado um dos criadores dos primeiros algoritimos da computação",
+      "answer": 4,
+      "alternatives": [
+        "Guerra do Vietnã",
+        "Primeira Guerra Mundial",
+        "Guerras Napoleônica",
+        "Guerra Franco-Prussiana",
+        "Segunda Guerra Mundial"
+      ]
+    },
+    {
+      "image": "https://static-wp-eqi15-prd.euqueroinvestir.com/wp-content/uploads/2019/12/larry-page-e-sergey-brin-590x429.jpg",
+      "title": "QUal o nome utilizado pelo sistema de busca do Google fundada pelos colegas Larry Page e Sergey Brin?",
+      "description": "Larry Page e Sergey Brin são fundadores da Google que revolucionaram o sistema de buscas na internet",
+      "answer": 4,
+      "alternatives": [
+        "Base de Dados",
+        "Archtext",
+        "AgregatedLinks",
+        "NumberOf",
+        "PageRank"
+      ]
+    },
+    {
+      "image": "https://phoneky.co.uk/thumbs/screensavers/down/original/linux_yni2ey11.gif",
+      "title": "Qual a nascionalidade de Linus Torvalds?",
+      "description": "Linus Torvalds é o pai do Linux sistema operacional de código aberto",
+      "answer": 3,
+      "alternatives": [
+        "Noroeguês",
+        "Marroquino",
+        "Indiano",
+        "Finlândes",
+        "Dinamarquês"
+      ]
+    },
+    {
+      "image": "https://exame.com/wp-content/uploads/2016/09/size_960_16_9_20151020-25144-r60bdc.jpg?quality=70&strip=info&w=920",
+      "title": "Qual linguagem de programação Grace Murray Hopper ajudou a criar?",
+      "description": "Grace Murray Hopper responsavel por criar o primeiro compilador de uma linguagem",
+      "answer": 0,
+      "alternatives": ["COBOL", "C", "JAVA", "Delphin", "Pearl"]
+    },
+    {
+      "image": "https://1gr.cz/fotky/idnes/19/102/vidw/PKA7eba9a_knuthkolaz4.jpg",
+      "title": "Em qual universidade Donald Knuth é professor",
+      "description": "Donald Knuth é conhecido pela criação de análise de algoritmos, sistema tipográfico TeX, sistema de fontes METAFONT e os conceitos de programação literária e de número surreal.",
+      "answer": 1,
+      "alternatives": ["Cambridge", "Stanford", "MIT", "Oxford", "Yale"]
     }
   ],
   "external": [""],
