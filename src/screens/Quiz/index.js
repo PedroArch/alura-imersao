@@ -1,18 +1,20 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/prop-types */
 /* eslint-disable comma-dangle */
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import PropTypes from 'prop-types';
-import db from '../db.json';
+// import db from '../db.json';
 
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import QuizLogo from '../src/components/QuizLogo';
-import Widget from '../src/components/Widget';
-import Button from '../src/components/Button';
-import GitHubCorner from '../src/components/GitHubCorner';
-import Spinner from '../src/components/Spinner';
-import AltertiveForm from '../src/components/AlternativeForm';
-import BackLinkArrow from '../src/components/BackLinkArrow';
+import QuizBackground from '../../components/QuizBackground';
+import QuizContainer from '../../components/QuizContainer';
+import QuizLogo from '../../components/QuizLogo';
+import Widget from '../../components/Widget';
+import Button from '../../components/Button';
+import GitHubCorner from '../../components/GitHubCorner';
+import Spinner from '../../components/Spinner';
+import AltertiveForm from '../../components/AlternativeForm';
+import BackLinkArrow from '../../components/BackLinkArrow';
 
 function QuestionWidget({
   onSubmit,
@@ -93,12 +95,12 @@ const screenStates = {
   RESULTADO: 'RESULTADO',
 };
 
-export default function Quiz() {
+export default function Quiz({ externalQuestions, externalBg }) {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const [acertos, setAcertos] = React.useState([]);
-  const totalQuestoes = db.questions.length;
+  const totalQuestoes = externalQuestions.length;
   const [questaoIndex, setQuestaoIndex] = React.useState(0);
-  const questaoAtual = db.questions[questaoIndex];
+  const questaoAtual = externalQuestions[questaoIndex];
   const [alternativaSelecionada, setAlternativaSelecionada] = React.useState(
     null
   );
@@ -106,6 +108,7 @@ export default function Quiz() {
   const isCorrect = alternativaSelecionada === questaoAtual.answer;
   const [disableButton, setDisableButton] = React.useState(true);
   const alternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
+  const bg = externalBg;
 
   function addResult() {
     const resultado = isCorrect;
@@ -136,7 +139,7 @@ export default function Quiz() {
   }, []);
 
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={bg}>
       <QuizContainer>
         <QuizLogo />
         {screenState === screenStates.LOADING && (
