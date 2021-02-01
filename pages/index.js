@@ -101,7 +101,7 @@ export default function Home() {
           }}
         />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/pedroarch" />
+      <GitHubCorner projectUrl="https://github.com/PedroArch/alura-imersao" />
     </QuizBackground>
   );
 }
