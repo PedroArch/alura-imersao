@@ -187,7 +187,7 @@ export default function Quiz() {
           </Widget>
         )}
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/pedroarch" />
+      <GitHubCorner projectUrl="https://github.com/PedroArch/alura-imersao" />
     </QuizBackground>
   );
 }
